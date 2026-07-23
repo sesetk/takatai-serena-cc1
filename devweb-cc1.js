@@ -84,6 +84,6 @@ function toggleCow(_evt) {
     document.onmousedown = addCow;
   }
 }
-
+$cowBtn.addEventListener("click", toggleCow);
 
   
